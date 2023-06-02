@@ -20,3 +20,5 @@ def process_webhook():
             for x in range(width):
                 pixel = image.getpixel((x, y))
                 r, g, b = pixel[0], pixel[1], pixel
+
+                
